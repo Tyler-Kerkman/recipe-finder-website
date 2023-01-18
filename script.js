@@ -62,6 +62,7 @@ function mealRecipeModal(meal){
         <h2 class = "recipe-title">${meal.strMeal}</h2>
         <p class = "recipe-category">${meal.strCategory}</p>
         <div>
+            // TODO
             <button type = "button" class = "add-list btn recipe-category" id = "addToList">Add Ingredients to List</button>
         </div>
         <div class = "recipe-instruct">
